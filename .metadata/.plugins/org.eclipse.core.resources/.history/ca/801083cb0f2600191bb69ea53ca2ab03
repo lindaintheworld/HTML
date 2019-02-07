@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>testForm</title>
+</head>
+<body>
+<h1>새로 추가된 html5 입력양식 태그 테스트</h1>
+<hr>
+<form method="post" action="">
+이메일 : <input type="email name="email"><br>
+<label for="weburi">등록할 웹주소 : </label>
+<input type="url" name="url" id="weburl"><br>
+<label>수량 : <input type="number" min="2" max="30"
+step="2" value="10"></label>
+</form>
+</body>
+</html>

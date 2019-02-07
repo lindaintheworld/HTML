@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<fieldset>
+<legend>납품자정보</legend>
+<ol>
+	<li><label for="name">납품자명: <input type="name"></label></li><p>
+	<li><lable for="email">email: <input type="email"></lable></li><p>
+	<li><lable for="url">홈페이지: <input type="url"></lable></li><p>
+</ol>
+</fieldset>
+</body>
+</html>

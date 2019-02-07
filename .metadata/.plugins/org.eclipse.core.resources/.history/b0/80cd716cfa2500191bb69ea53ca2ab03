@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>testSimetics</title>
+</head>
+<body>
+<header>
+<h1>시맨틱 태그 연습 페이지</h1>
+</header>
+<hr>
+<section>
+
+</section>
+line<p>
+line<p>
+line<p>
+line<p>
+line<p>
+line<p>
+line<p>
+line<p>
+line<p>
+line<p>
+<hr>
+<footer>
+<center>
+copyright@kh.org %nbsp; 2019-02-01 제작자 : 홍길동<br>
+대표전화 : 02-1234-5678, fax : 02-1234-5555
+	
+</center>
+</footer>
+</body>
+</html>

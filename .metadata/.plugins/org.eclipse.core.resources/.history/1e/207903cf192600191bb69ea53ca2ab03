@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>피자 배달 주문 양식</h1>
+<form action="">
+<p><label>고객명 : <input type="text" name="cname"></label></p>
+<p><label>전화번호 : <input type="tel" name="cphone"></label></p>
+<p><label>E-mail : <input type="email" name="cemail"></label>
+
+</form>
+
+
+</body>
+</html>

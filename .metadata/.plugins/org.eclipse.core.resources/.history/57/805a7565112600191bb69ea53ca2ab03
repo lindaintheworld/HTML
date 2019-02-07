@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<label for="name">고객명 : 
+<input type="name"></label><br>
+<label for="phone">전화번호 : 
+<input type="phone"></label><br>
+<label for="email">E-mail : 
+<input type="email"></label><br>
+
+
+</body>
+</html>

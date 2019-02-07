@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>testh2</title>
+</head>
+<body>
+<header>
+	<h1>TEST HTML5</h1>
+	<nav>
+		<ul>
+			<li><a href="views/testSimentics.html">시맨틱태그 연습</a></li>
+		</ul>
+	</nav>
+</header>
+</body>
+</html>

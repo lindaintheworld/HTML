@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<label for="name">고객명 : 
+<input type="name"></label><p>
+<label for="phone">전화번호 : 
+<input type="phone"></label><p>
+<label for="email">E-mail : 
+<input type="email"></label><p>
+<fieldset>
+<legend>피자 사이즈</legend>
+<ol>
+	<input type="radio" name="size" value="small">Small<p>
+	<input type="radio" name="size" value="medium">Medium<p>
+	<input type="radio" name="size" value="large">Large<p>
+</ol>
+</fieldset>
+<fieldset>
+<legend>토핑선택</legend>
+<ol>
+	<input type="checkbox" name="topping" value="bacon">베이컨<p>
+	<input type="checkbox" name="topping" value="cheeze">치즈<p>
+	<input type="checkbox" name="topping" value="onion">양파<p>
+	<input type="checkbox" name="topping" value="mushroom">버섯<p>
+</ol>
+</fieldset>
+<label for="time">희망배송시간
+<input type="time"></label><p>
+
+</body>
+</html>
