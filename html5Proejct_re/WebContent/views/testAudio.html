@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>testAudio</title>
+</head>
+<body>
+<h1>audio 태그 테스트</h1>
+<hr>
+<!-- controls : 재생 막대바
+	autoplay : 자동 재생
+	loop="n" : 얼마나 반복 재생할 것인지 -->
+<!-- <audio src="../resources/multi/major.mp3" controls></audio> -->
+<!-- 모든 브라우저에서 재생되게 하려면 -->
+<audio controls loop="1" autoplay>
+	<source src="../resources/multi/major.mp3" type="audio/mp3">
+	<source src="../resources/multi/major.ogg" type="audio/ogg">
+	<source src="../resources/multi/major.wav" type="audio/wav">
+</audio>
+</body>
+</html>
