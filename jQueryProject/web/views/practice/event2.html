@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>event2</title>
+<script type="text/javascript" src="/testq/resources/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("body").on("change", "select[name=number]", function() {
+			$(this).children().each(function() {
+				if($(this).is(":selected")) {
+					$("#selNum").text($(this).text());
+				}
+			});
+		});
+	});
+	/* $(function(){
+		$("option").click(function(){
+
+			$("#selNum").html($(this).html());
+		/* 	var num = $(this).html();
+			$("#selNum").html(num + "번"); 
+		}); 
+	});   */
+</script>
+</head>
+<body>
+	<select name="number">
+		<option value="">== 선택 ==</option>
+		<option value="1">1번</option>
+		<option value="2">2번</option>
+		<option value="3">3번</option>
+		<option value="4">4번</option>
+	
+	</select>
+	<span id="selNum"></span>
+</body>
+</html>
